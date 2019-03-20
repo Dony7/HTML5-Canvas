@@ -1,0 +1,66 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.large_brush{
+    border: 3px solid black;
+    width: 60px;
+    height: 60px;
+    
+}
+
+canvas{
+    width: 100%;
+}
+
+.medium_brush{
+    border: 3px solid black;
+    width: 40px;
+    height: 40px;
+    
+}
+
+.small_brush{
+    border: 3px solid black;
+    width: 20px;
+    height: 20px;
+
+}
+
+.color{
+    margin-right: 20px;
+}
+
+.clear{
+    background-color: rgb(230, 225, 220);
+    border: none;
+    padding: 5px 15px;
+    box-shadow: 2px 1px 30px rgb(211, 211, 211);
+    transition: all .2s;
+}
+
+.clear:hover{
+    background-color: black;
+    color: azure;
+}
+
+.brush{
+    border-radius: 1000px;
+    box-shadow: 2px 1px 30px rgb(211, 211, 211);
+    margin-right: 20px;
+}
+
+.selected{
+    border: 3px solid rgb(255, 187, 0);
+}
+
+.palette{
+    left: 50%;
+    top: 30px;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
